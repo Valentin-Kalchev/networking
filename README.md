@@ -1,6 +1,9 @@
 # Description
 Simple Networking layer for communication via HTTP for iOS and macOS. Implement the `Requestable` protocol and use the `Requester` to send a HTTP request and get a response. See `RequestableSample` as an example.  
 
+# Swift Package Manager
+Add https://github.com/Valentin-Kalchev/networking as a Swift Package Repository in Xcode and follow the instructions to add Networking as a Swift Package.
+
 # Example usecase inside an API module
 ```
 public struct AccountsAPI {
